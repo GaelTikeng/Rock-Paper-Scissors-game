@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+.all-sections {
+  width: 600px;
+  border-radius: 5px;
+  height: fit-content;
+  padding: 15px 0;
+  margin: 10px auto;
+  box-shadow: 3px 5px 8px #000;
+  background-color: #040547d0;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px 0;
+}
+
+hr {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.score {
+  border: 2px solid #fff;
+  border-radius: 10px;
+  height: 100px;
+  margin: 10px auto;
+  width: 250px;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  position: relative;
+}
+
+.user {
+  background-color: #008000c4;
+  width: fit-content;
+  border-radius: 5px;
+  position: absolute;
+  top: 30px;
+  left: -25px;
+}
+
+.comp {
+  background-color: #ff0000bd;
+  width: fit-content;
+  border-radius: 5px;
+  top: 30px;
+  position: absolute;
+  right: -30px;
+}
+
+.user-score,
+.comp-score {
+  font-size: 50px;
+  position: relative;
+  top: 17px;
+}
+
+.images {
+  margin: 10px auto;
+  width: 300px;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.choises {
+  border: 2px solid #fff;
+  padding: 10px;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+}
+
+.choises:hover {
+  cursor: pointer;
+  transform: translate(1px);
+  background-color: #221c1cab;
+}
+
+.result {
+  padding: 15px 0;
+}
+
+p {
+  text-align: center;
+}
