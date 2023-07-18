@@ -16,19 +16,27 @@ const getComputerChoice = () => {
 const wins = () => {
   userScore += 1
   userDisplay.innerHTML = userScore;
-  console.log("xins")
+  result.innerHTML = `<div class="emoji">
+  <img src="./assets/images/smile.jpeg" alt="smile" class="smile">
+  <p>YOU WIN !</p>
+</div>`
   console.log('score is', userScore)
 }
 
 const lose = () => {
   computerScore += 1;
   compDisplay.innerHTML = computerScore
+  result.innerHTML = `<div class="emoji">
+  <img src="./assets/images/sad.jpg" alt="smile" class="smile">
+  <p>YOU LOSE !</p>
+</div>`
   console.log("lost")
 
   // console.log('comp score', computerScore)
 }
 
 const drawGame = () => {
+  result.innerHTML = 'Draw !'
   console.log('this game is a draw')
 }
 
